@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\work\\2021\\login_with_third_party\\login_with_third_party\\login_with_third_party.csproj": {}
+    "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj": {}
   },
   "projects": {
-    "E:\\work\\2021\\login_with_third_party\\login_with_third_party\\login_with_third_party.csproj": {
+    "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\work\\2021\\login_with_third_party\\login_with_third_party\\login_with_third_party.csproj",
+        "projectUniqueName": "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj",
         "projectName": "login_with_third_party",
-        "projectPath": "E:\\work\\2021\\login_with_third_party\\login_with_third_party\\login_with_third_party.csproj",
+        "projectPath": "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj",
         "packagesPath": "C:\\Users\\ey18\\.nuget\\packages\\",
-        "outputPath": "E:\\work\\2021\\login_with_third_party\\login_with_third_party\\obj\\",
+        "outputPath": "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ey18\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,19 +58,25 @@
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.8, )"
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
