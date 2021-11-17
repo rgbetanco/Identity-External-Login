@@ -253,3 +253,4 @@ C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\n
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\System.Linq.Dynamic.dll

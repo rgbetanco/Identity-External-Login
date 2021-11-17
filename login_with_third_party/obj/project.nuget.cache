@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rrhTZfeVlMiLqdp2MaipahfU7v4O0oyhNtobGZQPz+KD3ljxDC/ADDuXVODlOXEUM58B7NaoaAkEZpwj5JfAiw==",
+  "dgSpecHash": "OTfm9MZZSzSrOHOHhCm0eenfWGruMq8M5nTPMOFNOO6pt5zVSuTEDGIAw8NS2ORiLoINNiNgZlFaUY0ixJKWqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj",
   "expectedPackageFiles": [
@@ -95,6 +95,7 @@
     "C:\\Users\\ey18\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\ey18\\.nuget\\packages\\system.linq.dynamic\\1.0.8\\system.linq.dynamic.1.0.8.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
@@ -141,5 +142,16 @@
     "C:\\Users\\ey18\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 'net5.0' 還原了套件 'System.Linq.Dynamic 1.0.8'。此套件與您的專案並非完全相容。",
+      "libraryId": "System.Linq.Dynamic",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
