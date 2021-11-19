@@ -15,9 +15,7 @@ namespace login_with_third_party.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<login_with_third_partyContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("login_with_third_partyContextConnection")));
+               
 
                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                     .AddEntityFrameworkStores<login_with_third_partyContext>();

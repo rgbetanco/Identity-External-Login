@@ -30,6 +30,10 @@ namespace login_with_third_party
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<login_with_third_partyContext>(options =>
+                    options.UseSqlServer(
+                        Configuration.GetConnectionString("login_with_third_partyContextConnection")));
+
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddControllersWithViews();

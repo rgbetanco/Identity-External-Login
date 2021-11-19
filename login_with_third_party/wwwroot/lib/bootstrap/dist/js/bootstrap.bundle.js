@@ -4776,10 +4776,10 @@
       if (transition) {
         var transitionDuration = Util.getTransitionDurationFromElement(this._element);
         $(this._element).one(Util.TRANSITION_END, function (event) {
-          return _this2._hideModal(event);
+          return _this2._hilocationdal(event);
         }).emulateTransitionEnd(transitionDuration);
       } else {
-        this._hideModal();
+        this._hilocationdal();
       }
     };
 
@@ -4909,7 +4909,7 @@
       }
     };
 
-    _proto._hideModal = function _hideModal() {
+    _proto._hilocationdal = function _hilocationdal() {
       var _this7 = this;
 
       this._element.style.display = 'none';

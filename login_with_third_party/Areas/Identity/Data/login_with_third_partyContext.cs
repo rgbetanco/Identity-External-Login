@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+using login_with_third_party.Models;
+
 namespace login_with_third_party.Data
 {
     public class login_with_third_partyContext : IdentityDbContext<IdentityUser>
@@ -14,6 +16,7 @@ namespace login_with_third_party.Data
             : base(options)
         {
         }
+        public DbSet<Location> Locations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
