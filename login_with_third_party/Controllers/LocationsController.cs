@@ -9,6 +9,7 @@ using login_with_third_party.Data;
 using login_with_third_party.Models;
 
 using Microsoft.AspNetCore.Authorization;
+using NetTopologySuite.Geometries;
 
 namespace contactUS_admin.Controllers
 {
@@ -56,10 +57,11 @@ namespace contactUS_admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,LocationName,LocationX,LocationY")] Location location)
+        public async Task<IActionResult> Create([Bind("Id,LocationName,Latitude,Longitude,LocationPoint")] login_with_third_party.Models.Location location)
         {
             if (ModelState.IsValid)
             {
+                location.LocationPoint = new Point(location.Longitude, location.Latitude) { SRID = 4326 };
                 _context.Add(location);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -88,7 +90,7 @@ namespace contactUS_admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,LocationName,LocationX,LocationY")] Location location)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,LocationName,Latitude,Longitude,LocationPoint")] login_with_third_party.Models.Location location)
         {
             if (id != location.Id)
             {
@@ -99,6 +101,7 @@ namespace contactUS_admin.Controllers
             {
                 try
                 {
+                    location.LocationPoint = new Point(location.Longitude, location.Latitude) { SRID = 4326 };
                     _context.Update(location);
                     await _context.SaveChangesAsync();
                 }

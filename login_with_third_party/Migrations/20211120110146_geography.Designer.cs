@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetTopologySuite.Geometries;
 using login_with_third_party.Data;
@@ -10,9 +11,10 @@ using login_with_third_party.Data;
 namespace login_with_third_party.Migrations
 {
     [DbContext(typeof(login_with_third_partyContext))]
-    partial class login_with_third_partyContextModelSnapshot : ModelSnapshot
+    [Migration("20211120110146_geography")]
+    partial class geography
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -227,17 +229,11 @@ namespace login_with_third_party.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<float>("Latitude")
-                        .HasColumnType("real");
-
                     b.Property<string>("LocationName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<Point>("LocationPoint")
                         .HasColumnType("geography");
-
-                    b.Property<float>("Longitude")
-                        .HasColumnType("real");
 
                     b.HasKey("Id");
 

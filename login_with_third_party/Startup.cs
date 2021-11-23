@@ -32,7 +32,7 @@ namespace login_with_third_party
         {
             services.AddDbContext<login_with_third_partyContext>(options =>
                     options.UseSqlServer(
-                        Configuration.GetConnectionString("login_with_third_partyContextConnection")));
+                        Configuration.GetConnectionString("login_with_third_partyContextConnection"), x => x.UseNetTopologySuite()));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KAxm1SSYnyxsgv07juzku65FISXUTqJ5kQuWKOlDzksFZyC8Rak59QnvqVeBSG33e2Db1QoLHHzoI1zKc/RhVQ==",
+  "dgSpecHash": "9OO6sBjNWUTyfrLEQS1rLK9ND0S7POHtIkBwxQLemRDi1j4Rbc9RASdnBPQOpHvFMchbx3IBXwX6jp08NZuN/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ey18\\Desktop\\Identity-External-Login\\login_with_third_party\\login_with_third_party.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.12\\microsoft.entityframeworkcore.sqlite.5.0.12.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\5.0.12\\microsoft.entityframeworkcore.sqlite.core.5.0.12.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.12\\microsoft.entityframeworkcore.sqlserver.5.0.12.nupkg.sha512",
+    "C:\\Users\\ey18\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver.nettopologysuite\\5.0.12\\microsoft.entityframeworkcore.sqlserver.nettopologysuite.5.0.12.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.12\\microsoft.entityframeworkcore.tools.5.0.12.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
@@ -70,6 +71,8 @@
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\5.0.2\\microsoft.visualstudio.web.codegenerators.mvc.5.0.2.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ey18\\.nuget\\packages\\nettopologysuite\\2.1.0\\nettopologysuite.2.1.0.nupkg.sha512",
+    "C:\\Users\\ey18\\.nuget\\packages\\nettopologysuite.io.sqlserverbytes\\2.0.0\\nettopologysuite.io.sqlserverbytes.2.0.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\ey18\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",

@@ -275,8 +275,12 @@ C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\n
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Index.cshtml.g.cs
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite.dll
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\NetTopologySuite.dll
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\bin\Debug\net5.0\NetTopologySuite.IO.SqlServerBytes.dll
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Create.cshtml.g.cs
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Delete.cshtml.g.cs
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Details.cshtml.g.cs
 C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Edit.cshtml.g.cs
+C:\Users\ey18\Desktop\Identity-External-Login\login_with_third_party\obj\Debug\net5.0\Razor\Views\Locations\Index.cshtml.g.cs
