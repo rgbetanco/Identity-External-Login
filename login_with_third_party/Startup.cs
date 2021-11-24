@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+using Newtonsoft.Json.Serialization;
 
 namespace login_with_third_party
 {
